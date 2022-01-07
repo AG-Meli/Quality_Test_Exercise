@@ -4,6 +4,7 @@
 
 package web
 
+//In the content it will go what you want to return in case of success
 type Response struct {
 	StatusCode   int         `json:"status_code"`
 	Content      interface{} `json:"content"`

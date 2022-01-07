@@ -9,6 +9,7 @@ import (
 	"os"
 )
 
+//Store interface
 type Store interface {
 	Read(data interface{}) error
 	Write(data interface{}) error
